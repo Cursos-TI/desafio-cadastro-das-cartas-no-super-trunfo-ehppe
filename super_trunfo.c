@@ -77,4 +77,5 @@
         printf("%.2f bilhões de reais \n", pib);
         printf("Número de Pontos Turísticos: %d\n\n", turistico);
 
+        
     }
