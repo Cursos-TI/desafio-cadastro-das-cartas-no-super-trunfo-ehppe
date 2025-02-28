@@ -52,10 +52,17 @@
         scanf("%f", &pib);
 
         printf("Qual o numero de ponto turístico: \n")/
-        scanf("%d", &turistico);
-      
-            
-        //CARTA 1 
+        scanf("%d", &turistico); 
+         
+        //Carta 1:
+        //Estado: A
+        //Código: A01
+        //Nome da Cidade: Minas Gerais
+        //População: 20539989
+        //Área: 586.513 km²
+        //PIB: 272,33 bilhões de reais
+        //Número de Pontos Turísticos: 49
+
         printf("\nCarta 1: \n");
         printf("Estado: %s\n", estado);
         printf("Codigo: %s\n", codigo);
@@ -67,6 +74,13 @@
         
         
         //CARTA 2
+        //Estado: B
+        //Código: B01
+        //Nome da Cidade: Piaui
+        //População: 3271199
+        //Área: 251.529 km²
+        //PIB: 64.30 bilhões de reais
+        //Número de Pontos Turísticos: 29
 
         printf("Carta 2: \n");
         printf("Estado: %s\n", estado);
@@ -77,5 +91,5 @@
         printf("%.2f bilhões de reais \n", pib);
         printf("Número de Pontos Turísticos: %d\n\n", turistico);
 
-        
+        return 0;
     }
